@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+<style type="text/css">
+li,ab{
+	color: violet;
+}
+h1 ab{
+	color: sandybrown;
+	text-decoration: line-through;
+}
+form{
+	color: blue;
+}
+
+
+</style>
+</head>
+<body><ul>
+		<li><ab>violet</ab></li>
+	</ul>
+	<h1>SHEESH<ab>line through</ab></h1>
+	<label for="Color">Color:
+		<input type="Color" autofocus />(Hexadecimal code such as #ADD8E6)</label><br>
+	<form action="/action_page.php">
+		<label for="date">Date:</label>
+		<input type="date" name="date">(yyyy-mm-dd)<br>
+	</form>
+	<form>Email:
+		<input type="email" name="email" placeholder="name@domain.com" required>(name@domain.com)<br>
+	</form>
+	<form action="/action_page.php">
+		<label for="quantity">Number</label>
+		<input type="number" name="number" min="0" max="7" value="4">
+		(Enter a number between 0 and 7)<br>
+	</form>
+	<form action="/action_page.php" method="get">
+		<label for="range">Range:</label>
+		0<input type="range" name="range" min="0" max"20">20
+	</form>	
+	<form action="/action_page.php">
+		<label for="search">Search:</label>
+		<input type="search" name="search"><br>
+	</form>
+	<form action="/action_page.php">
+		<label for="time">Time:</label>
+		<input type="time" name="time">(hh:mm)<br>
+	</form>
+	<input type="submit" value="Submit">
+	<input type="submit" value="Clear">
+
+</body>
+</html>
